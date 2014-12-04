@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "questions": {
+      ".read": true,
+      "$question_id": {
+        ".write": "(!data.exists() && newData.exists() && auth != null) || (data.child('user/uid').val() == auth.uid)"
+      }
+    }
+  }
+}

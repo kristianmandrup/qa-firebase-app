@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  font-family: RobotoDraft, "Helvetica Neue", Helvetica, Arial;
+  height: 100%;
+}
+
+core-header-panel {
+  height: 100%;
+}
+
+core-header-panel::shadow #mainContainer {
+  background: #f5f5f5;
+}
+
+core-toolbar {
+  background: none;
+}
+
+.core-header {
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  padding: 0 10px;
+  background-color: #3F51B5;
+  color: #fff;
+  transition: height 0.2s;
+}
+
+.core-header paper-item {
+  color: #333;
+}
+
+.core-header paper-menu-button {
+  height: 40px;
+}
+
+.content {
+  background: #fff;
+}
